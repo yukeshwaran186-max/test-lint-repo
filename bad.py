@@ -1,6 +1,5 @@
-import os, sys
+import os
+import sys
+
 def f(x):
-    result=[]
-    for i in x:
-        result.append(i*2)
-    return result
+    return [i * 2 for i in x]
